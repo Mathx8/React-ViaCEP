@@ -1,0 +1,61 @@
+.buscaContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 1rem;
+  margin: 1rem;
+  border: #747bff 1px solid;
+  border-radius: 0.8rem;
+  background-color: black;
+}
+
+.linhaBusca {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.cep {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+input {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #747bff;
+  border-radius: 6px;
+}
+
+.botaoBuscar {
+  background-color: #747bff;
+  border-color: white;
+}
+
+.botaoBuscar:hover {
+  background-color: white;
+  color: #747bff;
+}
+
+.erro {
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  padding: 0 1rem;
+  border: #747bff 1px solid;
+  border-radius: 0 0 0.8rem 0.8rem;
+}
+
+.resultado {
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+  padding: 0 1rem;
+  border: #747bff 1px solid;
+  color: #747bff;
+  border-radius: 0 0 0.8rem 0.8rem;
+}

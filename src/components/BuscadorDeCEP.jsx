@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import './BuscadorDeCEP.css';
 
 const BuscadorDeCEP = () => {
     const [cep, setCep] = useState("");
@@ -44,16 +45,16 @@ const BuscadorDeCEP = () => {
 
     return (
         <div className="buscaContainer">
-            <div className="teste">
-                <h2>Informe seu CEP: </h2>
-                <input type="text"
-                    placeholder="(somente números)"
-                    value={cep}
-                    onChange={(e) => setCep(e.target.value.replace(/\D/g, ""))}
-                    maxLength="8" />
-            </div>
-            <div className="botoes">
+            <div className="linhaBusca">
                 <button onClick={limpar}>Limpar</button>
+                <div className="cep">
+                    <h2>Informe seu CEP: </h2>
+                    <input type="text"
+                        placeholder="(somente números)"
+                        value={cep}
+                        onChange={(e) => setCep(e.target.value.replace(/\D/g, ""))}
+                        maxLength="8" />
+                </div>
                 <button className="botaoBuscar" onClick={() => setBuscando(true)}>Buscar</button>
             </div>
             {erro && <p className="erro">{erro}</p>}

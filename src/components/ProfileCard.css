@@ -1,0 +1,20 @@
+.containerProfile {
+  flex-flow: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerCard {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  border: 1px solid #646cff;
+  border-radius: 1rem;
+  margin: 1rem;
+  padding: 0.6em 1.2em;
+
+  p {
+    display: flex;
+  }
+}

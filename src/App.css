@@ -1,7 +1,6 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0;
   text-align: center;
 }
 
@@ -34,64 +33,4 @@
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
-}
-
-.buscaContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  padding: 0 1rem;
-  border: #747bff 1px solid;
-  border-radius: 0.8rem;
-}
-
-.teste {
-  display: flex;
-  align-items: center;
-  margin-top: 1rem;
-  gap: 1rem;
-}
-
-input {
-  padding: 10px;
-  margin: 10px 0;
-  border: 1px solid #747bff;
-  border-radius: 6px;
-}
-
-.botoes {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 1rem;
-  width: 100%;
-}
-
-.botaoBuscar {
-  background-color: #747bff;
-  border-color: white;
-}
-
-.botaoBuscar:hover {
-  background-color: white;
-  color: #747bff;
-}
-
-.erro {
-  color: white;
-  font-weight: bold;
-  width: 100%;
-  padding: 0 1rem;
-  border: #747bff 1px solid;
-  border-radius: 0 0 0.8rem 0.8rem;
-}
-
-.resultado {
-  display: inline-block;
-  text-align: left;
-  width: 100%;
-  padding: 0 1rem;
-  border: #747bff 1px solid;
-  color: #747bff;
-  border-radius: 0 0 0.8rem 0.8rem;
 }
