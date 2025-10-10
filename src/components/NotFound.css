@@ -1,0 +1,25 @@
+.notFoundContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    height: 100vh;
+}
+
+.texto h1 {
+    font-size: 15em;
+    margin: 0;
+}
+
+.botaoInicio {
+    color: white;
+    border: 2px solid #1d1d1d;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+.botaoInicio:hover {
+    color: black;
+    background-color: #646cff;
+    border-color: black;
+}
